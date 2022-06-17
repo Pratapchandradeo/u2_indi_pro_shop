@@ -1,0 +1,54 @@
+#orders{
+    width: 70%;
+    /* border: 1px solid black; */
+    /* position: ; */
+    margin-left: 25%;
+    right: 10px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+#order_item{
+    width: 100%;
+    /* border: 1px solid rgb(236, 8, 8); */
+    background-color: rgb(242, 93, 64);
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#s-o-item{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#filter-o>#filter{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+#s-o-num>#o-number{
+width: 50%;
+box-sizing: border-box;
+padding:6px;
+margin-top: 5px;
+border-radius: 4px;
+}
+#s-o-num>#o-num-s{
+    width: 30%;
+    box-sizing: border-box;
+    padding: 6px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+#s-o-num>#o-num-s:hover{
+    color: white;
+    background-color: #414887;
+}

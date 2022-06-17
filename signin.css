@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#signin-body{
+    width: 100%;
+    display:flex;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+#signin-body>form{
+    width:25%;
+    /* border: 1px solid black; */
+    margin-left: 20%;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#signin-body>form>label{
+    font-size: 20px;
+    /* padding: 10px; */
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+#signin-body>form>input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+form>a{
+    margin-top: -10px;
+    color: black;
+}
+#signin-body>form>input[type="submit"]{
+    border-radius: 25px;
+    margin-top: 10px;
+    background-color:#414887;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#for-signup{
+    width: 20%;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+
+}
+#for-signup>h2{
+margin-bottom: 20px;
+}
+#for-signup>p{
+    line-height: 20px;
+}
+#for-signup>button{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 25px;
+    color: #414887;
+    border: 3px solid #414887;
+    font-weight: bold;
+    font-size: 18px;
+    /* background-color: #414887;font-size: 20px; */
+}
+#for-signup>button:hover{
+    background-color: #414887;
+    color: white;
+}

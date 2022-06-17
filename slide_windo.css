@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.side-bar{
+    background-color: antiquewhite;
+    backdrop-filter: blue;
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: -100%;
+    overflow-y: auto;
+}
+.side-bar .menu{
+    width: 100%;
+    margin-top: 80px;
+}
+.side-bar .menu .item{
+    position: relative;
+    cursor: pointer;
+}
+.close-btn{
+    position: absolute;color: #fff;
+    font-size: 20px;
+    right: 0;
+    margin: 25px;
+    cursor: pointer;
+
+}
+.side-bar .active{
+    left: 0;
+
+}

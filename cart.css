@@ -1,0 +1,142 @@
+#cart-s{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+#item-section{
+    width: 60%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 20px;
+}
+#item-section>h2{
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+}
+/* js code creat attribute */
+#c-item{
+    width: 100%;
+    display: block;
+    
+}
+#c-item>div{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+}
+#c-item>div>div:first-child{
+    width: 15%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#c-item>div>div:first-child>img{
+    width: 100%;
+}
+#c-item>div>div:last-child{
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+#c-item>div>div:last-child>button{
+    width: 50%;
+    height: 40px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+#c-item>div>div:last-child>button:hover{
+    background-color: #2d325f;
+    color: white;
+}
+/* bill css */
+#cart-s>#bill-s{
+    width: 35%;
+    /* height: 100px; */
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+    background-color: rgb(227, 225, 222);
+    padding: 20px;
+}
+#bill-s>h2{
+ border-bottom: 1px solid black;
+ padding: 10px;
+}
+#bill-s>#total>p{
+    text-align: center;
+}
+#total{
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: center;
+    margin-left: 35%;
+    justify-content:space-between ;
+}
+#bill-s>a{
+   position: absolute;
+   right: 30px;
+   color: black; 
+}
+#zip_code{
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+#bill-s>#zip_code>input[type="number"]{
+    width: 35%;
+    font-style: italic;
+}
+#bill-s>#zip_code>input[type="submit"]
+{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: 17px;
+    color: #414887;
+    font-weight: bold;
+    background-color: #fefeff;
+
+}
+#bill-s>#zip_code>input[type="submit"]:hover{
+    color: white;
+    background-color: #414887;
+}
+#bill-s>input[type="submit"]{
+    width: 40%;
+    margin-left: 60%;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #414887;
+    color: white;
+    border: 0px;
+}
+#bill-s>input[type="submit"]:hover{
+    background-color: #2d325f;
+}
+#different-pay-way{
+    width: 100%;
+    border: 1px solid rgb(202, 198, 198);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+#different-pay-way>img{
+    margin-top: 10px;
+}
